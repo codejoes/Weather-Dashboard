@@ -1,0 +1,49 @@
+.header {
+    padding: 15px;
+}
+
+.bg-blue {
+    background-color: rgb(38, 38, 214);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#city-name {
+    width: 300px;
+    margin-top: 15px;
+}
+
+button {
+    width: 200px;
+    margin: 5px;
+}
+
+#search {
+    display: flex;
+    margin: 5px;
+    margin-left: 0px;
+    width: 300px;
+}
+
+#today {
+    border: solid 3px black;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+#five-day {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    color: white;
+    width: 18rem;
+    margin: 5px 0px;
+}
